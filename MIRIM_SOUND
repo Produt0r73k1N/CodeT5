@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequências Sonoras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Frequências Sonoras</h1>
+        <nav>
+            <a href="#baixas-frequencias">Baixas Frequências</a>
+            <a href="#medias-frequencias">Médias Frequências</a>
+            <a href="#altas-frequencias">Altas Frequências</a>
+        </nav>
+    </header>
+    <main>
+        <section id="baixas-frequencias">
+            <h2>Baixas Frequências (20 Hz – 200 Hz)</h2>
+            <audio controls>
+                <source src="exemplo-baixa.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <button>Salvar nos Bookmarks</button>
+        </section>
+        <section id="medias-frequencias">
+            <h2>Médias Frequências (200 Hz – 2000 Hz)</h2>
+            <audio controls>
+                <source src="exemplo-media.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <button>Salvar nos Bookmarks</button>
+        </section>
+        <section id="altas-frequencias">
+            <h2>Altas Frequências (2000 Hz – 20000 Hz)</h2>
+            <audio controls>
+                <source src="exemplo-alta.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <button>Salvar nos Bookmarks</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Frequências Sonoras</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
